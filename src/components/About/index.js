@@ -12,6 +12,11 @@ function About() {
 		<section>
 			<h1 id='about'>Who am I</h1>
 			<img src={coverImage} alt='cover image' />
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet
+				unde velit, ullam tempore nobis esse cumque laborum, saepe, aliquid cum
+				odio quibusdam? Odit eaque soluta error ipsa maxime natus.
+			</p>
 		</section>
 	);
 }
