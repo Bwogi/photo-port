@@ -12,33 +12,6 @@ function About() {
 		<section>
 			<h1 id='about'>Who am I</h1>
 			<img src={coverImage} alt='cover image' />
-			<section>
-				<table>
-					<thead>
-						<tr>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Age</th>
-						</tr>
-					</thead>
-					<tfoot>
-						<tr>
-							<th>First Name</th>
-							<th>Last Name</th>
-							<th>Age</th>
-						</tr>
-					</tfoot>
-					<tbody>
-						{theTeam.map((team) => (
-							<tr>
-								<td>{team.first_name}</td>
-								<td>{team.last_name}</td>
-								<td>{team.age}</td>
-							</tr>
-						))}
-					</tbody>
-				</table>
-			</section>
 		</section>
 	);
 }
